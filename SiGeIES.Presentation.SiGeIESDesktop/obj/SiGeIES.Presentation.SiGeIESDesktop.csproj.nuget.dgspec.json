@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Presentation.SiGeIESDesktop\\SiGeIES.Presentation.SiGeIESDesktop.csproj": {}
+    "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Presentation.SiGeIESDesktop\\SiGeIES.Presentation.SiGeIESDesktop.csproj": {}
   },
   "projects": {
-    "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Presentation.SiGeIESDesktop\\SiGeIES.Presentation.SiGeIESDesktop.csproj": {
+    "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Presentation.SiGeIESDesktop\\SiGeIES.Presentation.SiGeIESDesktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Presentation.SiGeIESDesktop\\SiGeIES.Presentation.SiGeIESDesktop.csproj",
+        "projectUniqueName": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Presentation.SiGeIESDesktop\\SiGeIES.Presentation.SiGeIESDesktop.csproj",
         "projectName": "SiGeIES.Presentation.SiGeIESDesktop",
-        "projectPath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Presentation.SiGeIESDesktop\\SiGeIES.Presentation.SiGeIESDesktop.csproj",
-        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Presentation.SiGeIESDesktop\\obj\\",
+        "projectPath": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Presentation.SiGeIESDesktop\\SiGeIES.Presentation.SiGeIESDesktop.csproj",
+        "packagesPath": "C:\\Users\\Educacion\\.nuget\\packages\\",
+        "outputPath": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Presentation.SiGeIESDesktop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Educacion\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
