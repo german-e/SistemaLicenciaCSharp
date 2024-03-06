@@ -14,5 +14,8 @@ namespace SiGeIES.Domain.Entities
         public string Descripcion { get; set; }
         public int DiasPermitidos { get; set; }
         public bool SeInformaEnIL01 { get; set; }
+
+
+        
     }
 }

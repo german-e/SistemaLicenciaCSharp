@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SiGeIES.Domain.Entities
 {
-    internal class Inasistencia
+    public class Inasistencia
     {
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DDS+AxILmZXgUU92pppu90R3jW0jZ16wH7cUlawsjcBL2+CPTKKeQe1jm3Xxse3EzNVdQfXqtnC06WkdbI9n0A==",
+  "dgSpecHash": "geI6L/q189fyRNUQ1fOnrJo4uMzpX/EEPoX3OcLh8NXsvLwPYm7+XgI3BzRdAz4H0H8KkcGHt0+Nn39J5WmD6Q==",
   "success": true,
-  "projectFilePath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Domain\\SiGeIES.Domain.csproj",
+  "projectFilePath": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Domain\\SiGeIES.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
