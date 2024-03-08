@@ -1,4 +1,5 @@
 ﻿using SiGeIES.Domain.Common;
+using SiGeIES.Domain.Contracts;
 using SiGeIES.Domain.Entities.Estados;
 using SiGeIES.Domain.Enums;
 using System;
@@ -12,7 +13,7 @@ namespace SiGeIES.Domain.Entities
     public class Inasistencia : Entity
     {
         private IEstado _estadoActual;
-
+        private readonly IInasistenciaService _service;
 
         public DateTime Desde { get; set; }
         public DateTime Hasta { get; set; }
@@ -20,7 +21,12 @@ namespace SiGeIES.Domain.Entities
         public int HsCatedrasQueInasiste { get; set; }
         public EstadoInasistencia Estado { get; set; }
 
+        
 
+        public Inasistencia(IInasistenciaService service)
+        {
+            _service = service;
+        }
 
         public Inasistencia() : base()
         {
@@ -37,6 +43,11 @@ namespace SiGeIES.Domain.Entities
         public void Request()
         {
             _estadoActual.Handle(this);
+        }
+
+        public IEnumerable<Inasistencia> GetAll()
+        {
+            return _service.TodasInasistencia();
         }
     }
 }

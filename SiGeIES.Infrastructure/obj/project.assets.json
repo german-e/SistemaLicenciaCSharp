@@ -2060,24 +2060,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\germa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Educacion\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Infrastructure\\SiGeIES.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Infrastructure\\SiGeIES.Infrastructure.csproj",
       "projectName": "SiGeIES.Infrastructure",
-      "projectPath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Infrastructure\\SiGeIES.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Infrastructure\\obj\\",
+      "projectPath": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Infrastructure\\SiGeIES.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Educacion\\.nuget\\packages\\",
+      "outputPath": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Educacion\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2085,15 +2080,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Domain\\SiGeIES.Domain.csproj": {
-              "projectPath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Domain\\SiGeIES.Domain.csproj"
+            "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Domain\\SiGeIES.Domain.csproj": {
+              "projectPath": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Domain\\SiGeIES.Domain.csproj"
             }
           }
         }
@@ -2133,7 +2127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
