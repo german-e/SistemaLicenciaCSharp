@@ -13,9 +13,9 @@ namespace SiGeIES.Domain.ValueObjects
         private readonly string _valor;
         public Email(string valor) 
         { 
-            if ( IsEmailValid(valor) )
+            if ( !IsEmailValid(valor) )
             {
-                throw new ArgumentException("El mail ingresado no tiene un formato válido. Ejemplo: mi_email@gmail.com");
+                throw new ArgumentException($"El mail ingresado { valor }, no tiene un formato válido.");
             }
 
             _valor = valor;
@@ -30,10 +30,13 @@ namespace SiGeIES.Domain.ValueObjects
 
         private bool IsEmailValid(string email)
         {
-            string regexPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
-            var regex = new Regex(regexPattern);
+            string regexPattern = @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z";
 
-            return regex.IsMatch(email);
+            var isMailValid = Regex.IsMatch(email, @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z", RegexOptions.IgnoreCase);
+
+
+
+            return isMailValid;
 
 
         }

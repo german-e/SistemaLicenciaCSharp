@@ -1,26 +1,50 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SiGeIES.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SiGeIES.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SiGeIES.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SiGeIES.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SiGeIES.Domain/SiGeIES.Domain.csproj",
+      "msbuildProject": "../SiGeIES.Domain/SiGeIES.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SiGeIES.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Educacion\\.nuget\\packages\\": {}
+    "C:\\Users\\germa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Aplication\\SiGeIES.Aplication.csproj",
+      "projectUniqueName": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Aplication\\SiGeIES.Aplication.csproj",
       "projectName": "SiGeIES.Aplication",
-      "projectPath": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Aplication\\SiGeIES.Aplication.csproj",
-      "packagesPath": "C:\\Users\\Educacion\\.nuget\\packages\\",
-      "outputPath": "D:\\Developer\\CSharp\\SistemaLicenciaCSharp\\SiGeIES.Aplication\\obj\\",
+      "projectPath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Aplication\\SiGeIES.Aplication.csproj",
+      "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Aplication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Educacion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,12 +52,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Domain\\SiGeIES.Domain.csproj": {
+              "projectPath": "D:\\Visual Basic\\CSharp\\DDD\\SiGeIES\\SiGeIES.Domain\\SiGeIES.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -61,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

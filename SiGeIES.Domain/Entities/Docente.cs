@@ -21,6 +21,12 @@ namespace SiGeIES.Domain.Entities
         private readonly List<Inasistencia> inasistencias;
         private readonly List<Licencia> licencias;
 
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Apellido { get => apellido; set => apellido = value; }
+        public Direccion Direccion { get => direccion; set => direccion = value; }
+        public string Telefono { get => telefono; set => telefono = value; }
+        public Email Email { get => email; set => email = value; }
+
         public Docente() : base() 
         { 
             inasistencias = new List<Inasistencia>();
@@ -33,10 +39,7 @@ namespace SiGeIES.Domain.Entities
         }
 
 
-        public void CumplimentarInasistencia(Guid idInasistencia, Licencia licencia)
-        {
-
-        }
+        
 
     }
 
