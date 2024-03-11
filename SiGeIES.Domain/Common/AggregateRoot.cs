@@ -8,7 +8,10 @@ namespace SiGeIES.Domain.Common
 {
     public abstract class AggregateRoot : Entity
     {
-        public List<Event MyProperty { get; set; }
-        protected AggregateRoot() { }
+        public readonly List<DomainEvent> _events = new();
+        protected AggregateRoot() 
+        {
+            
+        }
     }
 }

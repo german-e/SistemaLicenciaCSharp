@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SiGeIES.Domain.Common
 {
-    public interface IDomainEvent
+    public abstract class DomainEvent
     {
         DateTime Fecha { get; }
     }
