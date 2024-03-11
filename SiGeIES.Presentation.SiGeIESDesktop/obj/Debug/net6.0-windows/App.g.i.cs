@@ -46,7 +46,7 @@ namespace SiGeIES.Presentation.SiGeIESDesktop {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.10.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "7.0.0.0")]
         public static void Main() {
             SiGeIES.Presentation.SiGeIESDesktop.App app = new SiGeIES.Presentation.SiGeIESDesktop.App();
             app.Run();
