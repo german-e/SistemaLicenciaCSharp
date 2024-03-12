@@ -13,5 +13,18 @@ namespace SiGeIES.Domain.Common
         {
             
         }
+
+        public void LimpiarEventos()
+        {
+            _events.Clear();
+        }        
+
+        public IEnumerable<DomainEvent> GetEvents => _events;
+
+        public void LanzarEvento(DomainEvent @event)
+        {
+            _events.Add(@event);
+        }
+        
     }
 }
